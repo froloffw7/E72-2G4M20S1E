@@ -1,2 +1,2 @@
 # E72-2G4M20S1E
-Firmware for E72-2G4M20S1E module (CC2652P)
+Coordinator firmware ZStack 3.x (znp) for E72-2G4M20S1E module (CC2652P)
