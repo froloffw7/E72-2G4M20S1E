@@ -30,3 +30,9 @@ This firmware built using SimpleLink SDK 6.40.00.13, TI RTOS-7 and TI ARM compil
 
 - Speed: 115200
 - flow control: none.
+
+and
+
+- Speed: 230400
+- flow control: hardware.
+
