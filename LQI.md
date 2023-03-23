@@ -3,8 +3,8 @@ TI SimpleLink cc13xx/cc26xx SDK 6.40.00.13 doesn't save correlation value from c
 
 To activate LQI adjusting according to correlation value object module (maclib_nosecure_cc13x2_2_4g_tirtos7.a:mac_rx.o) patch required.
 
-| Address | OpCode | Mnemonic      | Patch | Assembler       |
-|---------|--------|---------------|-------|-----------------|
-| 10800   | 565c   | ldrb r6,...   | 565a  | ldrh r6,...     |
-| 1087a   | 0021   | movs r1,#0x00 | 370a  | lsrs r7,r6,#0x8 |
-| 1087c   | 0027   | movs r7,#0x00 | 3900  | movs r1,r7      |
+| Offset | OpCode | Mnemonic      | Patch | Assembler       |
+|--------|--------|---------------|-------|-----------------|
+| 10800  | 565c   | ldrb r6,...   | 565a  | ldrh r6,...     |
+| 1087a  | 0021   | movs r1,#0x00 | 370a  | lsrs r7,r6,#0x8 |
+| 1087c  | 0027   | movs r7,#0x00 | 3900  | movs r1,r7      |
