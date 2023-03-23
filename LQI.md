@@ -1,7 +1,7 @@
 TI SimpleLink cc13xx/cc26xx SDK 6.40.00.13 doesn't save correlation value from coprocessor and doesn't provide source code for rxPayloadIsr() 
 (ti/simplelink_cc13xx_cc26xx_sdk_6_40_00_13/source/ti/ti154stack/low_level/cc13xx/mac_rx.c)
 
-To activate LQI adjusting according to correlation value I have to patch object module (maclib_nosecure_cc13x2_2_4g_tirtos7.a:mac_rx.o)
+To activate LQI adjusting according to correlation value object module (maclib_nosecure_cc13x2_2_4g_tirtos7.a:mac_rx.o) patch required.
 
 | Address | OpCode | Mnemonic      | Patch | Assembler       |
 |---------|--------|---------------|-------|-----------------|
