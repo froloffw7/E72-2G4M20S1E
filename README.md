@@ -20,8 +20,8 @@ This firmware built using SimpleLink SDK 6.40.00.13, TI RTOS-7 and TI ARM compil
 | 14      | TCK    | JTAG_TCK   |                                                         |
 | 15      | TDO    | JTAG_TDO   |                                                         |
 | 16      | TDI    | JTAG_TDI   |                                                         |
-| 17      | DIO_18 | RTS        | Hardware flow control. In this firmware is not used     |
-| 18      | DIO_18 | CTS        | Hardware flow control. In this firmware is not used     |
+| 17      | DIO_18 | RTS        | Hardware flow control.                                  |
+| 18      | DIO_19 | CTS        | Hardware flow control.                                  |
 | 19      | GND    |            |                                                         |
 | 20      | VCC    | 3V3        |                                                         |
 | 24      | RST    | RESET      | CC2652P Chip reset button                               |
